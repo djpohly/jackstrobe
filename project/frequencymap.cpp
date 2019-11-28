@@ -44,6 +44,10 @@ FrequencyMap::FrequencyMap()
     scales.append({"Chromatic 4", {"C4","C#4","D4","D#4","E4","F4","G4","G#4","A4","A#4","B4"}});
     scales.append({"Chromatic 5", {"C5","C#5","D5","D#5","E5","F5","G5","G#5","A5","A#5","B5"}});
     scales.append({"Chromatic 6", {"C6","C#6","D6","D#6","E6","F6","G6","G#6","A6","A#6","B6"}});
+    scales.append({"HD G/D", {"G#3", "G3", "G4", "Gb5", "D3", "D4", "D5", "D#5"}});
+    scales.append({"HD B/F", {"B3", "B4", "Bb4", "Bb5", "F#3", "F#4", "F4", "F5"}});
+    scales.append({"HD A/E/C", {"A3", "A4", "Ab5", "E3", "E4", "Eb6", "C#4", "C4", "C5"}});
+    scales.append({"HD Bass", {"D2", "E2", "G2", "A2", "C3", "C#3", "Eb3", "F3", "Bb3"}});
 
     // pitch names
     QList<QString> octaves({"0", "1", "2", "3", "4", "5", "6", "7", "8"});
